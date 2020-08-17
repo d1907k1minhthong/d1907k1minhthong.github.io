@@ -1,0 +1,502 @@
+/* CSS Document */
+
+@font-face{
+	src:url("font/Righteous-Regular.ttf")
+	    url("font/Sniglet-Regular.ttf")
+}
+/*color: #ffb200;*/
+*{
+	padding: 0;
+	margin: 0;
+	
+	scroll-behavior: smooth;
+}
+.content
+{
+	width: 100%;
+	height: 100%;
+	background: grey;
+}
+.mobai
+{
+	width: 1920px;
+	height: 900px;
+	background: url("../image/backgroud5.jpg");
+	background: cover;
+	animation: phong-to 2.5s forwards;
+	
+}
+@-webkit-keyframes phong-to{
+	from{
+		transform: scale(2);
+	}
+	to{
+		transform: scale(1);
+	}
+}
+.menu01
+{
+	width: 640px;
+	height: 92px;
+/*	background: black;*/
+	float: left;
+	margin-left: 310px;
+	margin-top: 50px;
+	
+}
+.menu01 ul
+{
+	list-style: none;
+	margin-top: 41px;
+	
+}
+.menu01 ul li
+{
+	float: left;
+}
+.menu01 a{
+	color: white;
+	text-decoration: none;
+	margin-left: 180px;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+.menu01 ul li a:hover{
+	color: #ffb200;
+}
+.logo
+{
+	width: 150px;
+	height: 92px;
+	background: black;
+	float: left;
+	margin-top: 50px;
+	border-radius: 50%;
+}
+.logo ul{
+	list-style: none;
+	margin-top: 21px;
+}
+.logo ul li{
+	float: left;	
+}
+.logo ul li a{
+	color: #ffb200;
+	text-decoration: none;
+	margin-left: 60px;
+	font-size: 45px;
+	font-family:'Righteous', cursive;
+}
+	
+.menu02
+{
+	width: 640px;
+	height: 92px;
+/*	background: black;*/
+	float: left;
+	margin-top: 50px;
+}
+.menu02 ul
+{
+	list-style: none;
+	margin-top: 41px;
+}
+.menu02 ul li
+{
+	float: left;
+}
+.menu02 a{
+	color: white;
+	text-decoration: none;
+	margin-left: 180px;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+}
+.menu02  ul li a:hover{
+	color: #ffb200;
+}
+.chude{
+	width: 790px;
+	height: 187px;
+/*	background: black;*/
+	float: left;
+	margin-left: 620px;
+	margin-top: 225px;
+}
+.chude h1{
+	text-align: center;
+	color: white;
+	font-family: 'Righteous', cursive;
+	font-size: 60px;
+	animation: chuchay 4s forwards;
+	animation-delay: 2s;
+	opacity: 0;
+	
+}
+.chude h2{
+	text-align: center;
+	color: white;
+	font-family: 'Sniglet', cursive;
+	font-size: 40px;
+	animation: chuchay1 4s forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+@-webkit-keyframes chuchay1{
+	from{
+		opacity: 0;
+		margin-top: -200px;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.chude p{
+	text-align: center;
+	color: white;
+	font-family: 'Sniglet', cursive;
+	animation: chuchay1 4s forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+@-webkit-keyframes chuchay{
+	from{
+		opacity: 0;
+		margin-left: -500px;
+		margin-top: -200px;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.thanbai{
+	width: 1920px;
+	height: 900px;
+	background: #b0b0b0;
+	float: left;
+}
+.littel{
+	width: 100%px;
+	height: 97px;
+/*	background: blue;*/
+	float: left;
+	margin-left: 45%;
+}
+.thanbai h1{
+/*	text-align: center;*/
+	font-family: 'Sniglet', cursive;
+	margin-top: 90px
+}
+.col1{
+	width: 493px;
+	height: 339px;
+	background: black;
+	float: left;
+	margin-top: 350px;
+	margin-left: -900px;
+	position: relative;
+}
+.col1:hover .img-top{
+	visibility: visible;
+	opacity: 1.5;
+	
+}
+.col1:hover .text-a{
+	visibility: visible;
+	
+}
+.col1:hover .img-bot{
+	visibility: hidden;
+	
+}
+.col1 .img-bot{
+	position: absolute;
+	z-index: 2;
+}
+.col1 .img-top{
+	position: absolute;
+	z-index: 3;
+	visibility:hidden;
+	opacity: 0;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.col1 .text-a{
+	z-index: 4;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	font-family: 'Sniglet', cursive;
+	visibility: hidden;
+	cursor: pointer;
+}
+.col2{
+	width: 207px;
+	height: 252px;
+	float: left;
+	background: black;
+	margin-top: 250px;
+	margin-left: -300px;
+}
+.col3{
+	width: 207px;
+	height: 252px;
+	float: left;
+	background: black;
+	margin-top: 250px;
+	margin-left: 50px;
+}
+.col4{
+	width: 207px;
+	height: 252px;
+	float: left;
+	background: black;
+	margin-top: 250px;
+	margin-left: 130px;
+}
+.col5
+{
+	width: 207px;
+	height: 252px;
+	float: left;
+	background: black;
+	top: 1461px;
+	right: 200px;
+	position: absolute;
+	
+	
+}
+.col6
+{
+	width: 207px;
+	height: 252px;
+	float: left;
+	background: black;
+	top: 1461px;
+	right: 530px;
+	position: absolute;
+	
+	
+}
+.col7
+{
+	width: 207px;
+	height: 252px;
+	float: left;
+	background: black;
+	top: 1461px;
+	right: 885px;
+	position: absolute;	
+}
+.aboutme{
+	width: 1920px;
+	height: 900px;
+	background: white;
+	float: left;
+}
+.abaut{
+	width: 100%px;
+	height: 97px;
+/*	background: blue;*/
+	float: left;
+	margin-left: 45%;
+}
+.abaut h1{
+	color: black;
+	font-family: 'Sniglet', cursive;
+	margin-top: 90px;
+}
+.avatar{
+	width: 468px;
+	height: 468px;
+/*	background: orange;*/
+	margin-left: 290px;
+	margin-top: 237px;
+}
+.bangten{
+	width: 885px;
+	height: 220px;
+	float: right;
+	margin-top: -400px;
+	margin-right: 200px;
+	padding: 0px 20px 20px;
+/*	background: #14B6E7;*/
+}
+.textbangten{
+	margin: 30px 0px;
+	font-size: 15px;
+	text-transform: uppercase;
+	
+	
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sniglet', cursive;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+}
+
+.skills{
+  width: 100%;
+  max-width: 400px;
+  padding: 0 20px;
+  position: absolute;
+  right: 100px;
+  top: 2340px;
+  left: 800px;
+}
+
+.skill-name{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color: black;
+  font-family: 'Sniglet', cursive;
+	  
+}
+
+.skill-bar{
+  height: 10px;
+  background: #72808f;
+  border-radius: 8px;
+}
+
+.skill-per{
+  height: 10px;
+  background-color: #ffb200;
+  border-radius: 8px;
+  width: 0;
+  transition: 8s linear;
+  position: relative;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #72808f;
+  color: #FBFBFB;
+  font-size: 12px;
+  border-radius: 10px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #72808f;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+.ketbai{
+	width: 1920px;
+	height: 900px;
+	background: url(../image/pexels-lumn-316466.jpg);
+	background-size: cover;
+}
+.ketbai .Grey{
+	margin-left: 750px
+}
+.form-style-3{
+	max-width: 800px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+	display:block;
+	margin-bottom: 10px;
+}
+.form-style-3 label > span{
+	float: left;
+	width: 100px;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 fieldset{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid grey;
+	padding: 20px;
+	background: white;
+	box-shadow: inset 0px 0px 15px grey;
+	-moz-box-shadow: inset 0px 0px 15px grey;
+	-webkit-box-shadow: inset 0px 0px 15px white;
+}
+.form-style-3 fieldset legend{
+	color: black;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: grey;
+	padding: 0px 8px 3px 8px;
+	box-shadow: -0px -1px 2px grey;
+	-moz-box-shadow:-0px -1px 2px grey;
+	-webkit-box-shadow:-0px -1px 2px grey;
+	font-weight: normal;
+	font-size: 12px;
+}
+.form-style-3 textarea{
+	width:250px;
+	height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid grey;
+	outline: none;
+	color: grey;
+	padding: 5px 8px 5px 8px;
+	box-shadow: inset 1px 1px 4px grey;
+	-moz-box-shadow: inset 1px 1px 4px grey;
+	-webkit-box-shadow: inset 1px 1px 4px grey;
+	background: white;
+	width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+	background: white;
+	border: 1px solid grey;
+	padding: 5px 15px 5px 15px;
+	color: grey;
+	box-shadow: inset -1px -1px 3px grey;
+	-moz-box-shadow: inset -1px -1px 3px grey;
+	-webkit-box-shadow: inset -1px -1px 3px grey;
+	border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;	
+	font-weight: bold;
+}
+.required{
+	color:red;
+	font-weight:normal;
+}
+
